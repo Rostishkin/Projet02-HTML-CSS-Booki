@@ -2,9 +2,8 @@
     margin: 0;
   }
 /*-------------------Policem couleur et taille dans BODY-----------*/
-html {
+body{
     font-family: 'Raleway';
-    
 }
 /*========================LIENS=============================*/
 
@@ -16,6 +15,7 @@ html {
 .navLink{
     font-size: 1em;
 }
+/*==============================HEADER===========================*/
 
 
 
