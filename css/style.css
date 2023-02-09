@@ -13,25 +13,13 @@ h1{
     font-size: 1.4em;
     margin-bottom: 0.5rem;
 }
-
 h2{
-    font: 1.4em;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
-h3{
-    font-size: 1.4em;
-    font-weight: 700;
-}
-
-h4{
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 700;
 }
 
 p{
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -72,15 +60,14 @@ a{
     border-top: 2px solid #0065fc;
     color: #0065fc;
 }
+
 #header-message{
     display: flex;
     flex-direction: column;
     margin-bottom: 2.5rem;
-    font-weight: bold;
 }
 #search-paragraph{
     margin-bottom: 1.25rem;
-    font-weight: ;
 }
 .fa-location-dot{
     color: #000000;
@@ -126,7 +113,88 @@ a{
     line-height: 21px;
     color: #fff;
 }
+/*--------------------------FILTRES--------------------------------*/
+#filter-bar{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 2rem;
+}
 
+#filter-header-text{
+    margin-right: 2.5rem;
+}
+
+#filter-button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.filter-button{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+    height: 50px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    white-space: nowrap;
+    padding:0 1rem;
+}
+
+.filter-button-text{
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.fa-person, .fa-money-bill-wave, .fa-heart, .fa-dog{
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    color: #0065FC;
+}
+.fa-money-bill-wave{
+    font-size: 20px;
+}
+
+.fa-heart, .fa-dog, .fa-person{
+    font-size: 22px;
+}
+
+
+.filter-button:hover{
+    background-color: #DEEBFF;
+}
+/*-----------------INFO------------------*/
+#info-message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#info-icon{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #D9D9D9;
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+}
+
+#info-text{
+    font-size: 1em;
+    margin-left: 10px;
+}
+.fa-info{
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    color: #0065FC;
+    font-size: 10px;
+}
 /*==================FOOTER=====================*/
 #footer-container{
     display: flex;
