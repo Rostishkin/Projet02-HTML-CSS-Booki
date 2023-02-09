@@ -6,54 +6,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/images/fontawesome-free-6.2.1-web/css/all.min.css">
-    <link rel="stylesheet"  href="images/fontawesome-free-6.2.1-web/css/all.min.css">
+    <script src="https://kit.fontawesome.com/5e0383a3dd.js" crossorigin="anonymous"></script> <!--ajout de fontawesome-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> <!--ajout de police Raleway-->
 </head>
     <body>
-        <header>
-            <nav>
-                <div>
-                    <a href="index.html"><img src="/images/logo/Booki@3x.png" alt="Logo Booki"></a>
-                        <div>
-                            <a href="#" class="navLink:hover navLink">Hébergements</a>
-                            <a href="#" class="navLink:hover navLink">Activités</a>
-                        </div>
+        <header> <!-----------------HEADER----------------->
+                <div id="header">  <!---------LOGO+LINKS haut de page--------->
+                    <a href="index.html">
+                        <img id="logo" src="/images/logo/Booki@3x.png" alt="Logo Booki">
+                    </a>
+                        <nav id="main-nav">
+                            <a class="link" href="#hebergement" class="navLink:hover navLink">Hébergements</a>
+                            <a class="link" href="#activites" class="navLink:hover navLink">Activités</a>
+                        </nav>
                 </div>
-            </nav>
-        </header>
-        <main>
+            <section id="header-message"> <!--------Section Recherche--------->
                 <div>
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre-ville ou en pleine nature</p>
+                    <p id="search-paragraph">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <div>
-                    <section>
-                        <label for="site-search"><i class="fa-solid fa-location-dot"></i></label>
-                        <input type="search" placeholder="Marseille,France" id="site-search" name="search">
-                        <button>Rechercher</button>
-                    </section>
+                <div id="destination-search">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input id="search-field" type="search" placeholder="Votre destination" name="search">
+                    <div class="search-button">
+                        <p id="destination-search-text">Rechercher</p>
+                    </div>
                 </div>
-            </main>
-        <footer>
-            <div>
-                <h3 class="fontBold">À propos</h3>
-                    <p>Fonctionnement du site</p>
-                    <p>Conditions générales </p>
-                    <p>Données et confidentialité</p>
+            </section>
+            <section id="filter-bar"> <!--------Section FILTRES-------->
+                <h2 id="filter-header-text">Filtres</h2>
+                <div id="filter-button-container">
+                    <a href="#">
+                        <div class="filter-button">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <p class="filter-button-text">Économique</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="filter-button">
+                            <i class="fa-solid fa-person"></i>
+                            <p class="filter-button-text">Familial</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="filter-button">
+                            <i class="fa-solid fa-heart"></i>
+                            <p class="filter-button-text">Romantique</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="filter-button">
+                            <i class="fa-solid fa-dog"></i>
+                            <p class="filter-button-text">Animaux autorisés</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <div id="info-message">
+                <div id="info-icon">
+                <i class="fa-solid fa-info"></i>
+                </div>
+                <p id="info-text">Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-            <div>
-                <h3 class="fontBold">Nos hébergements</h3>
-                    <p>Charte qualité</p>
-                    <p>Proposer votre hôtel</p>
-            </div>
-            <div>
-                <h3 class="fontBold">Assistance</h3>
-                    <p>Centre d’aide</p>
-                    <p>Nous contacter</p>
-            </div>
+        </header>
+    <main> <!----------MAIN-------->
+        <div>
+        </div>        
+    </main>
+        <footer> <!------------------FOOTER---------------->
+        <div id="footer-container">
+            <nav class="footer-nav">
+                <h4>À propos</h4>
+                <ul class="footer-list">
+                    <li class="footer-link"><a href="#"><p>Fonctionnement du site</p></a></li>
+                    <li class="footer-link"><a href="#"><p>Conditions générales</p></a></li>
+                    <li class="footer-link"><a href="#"><p>Données et confidentialité</p></a></li>
+                </ul>
+            </nav>
+            <nav class="footer-nav">
+                <h4>Nos hébergements</h4>
+                <ul class="footer-list">
+                    <li class="footer-link"><a href="#"><p>Charte qualité</p></a></li>
+                    <li class="footer-link"><a href="#"><p>Proposer votre hôtel</p></a></li>
+                </ul>
+            </nav>
+            <nav class="footer-nav">
+                <h4>Assistance</h4>
+                <ul class="footer-list">
+                    <li class="footer-link"><a href="#"><p>Centre d’aide</p></a></li>
+                    <li class="footer-link"><a href="#"><p>Nous contacter</p></a></li>
+                </ul>
+            </nav>
+        </div>
         </footer>
     </body>
 </html>
