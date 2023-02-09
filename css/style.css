@@ -2,32 +2,44 @@
 body{
     max-width: 1400px;
     margin: auto;
-    width: 95em;
+    width: 95vw;
 }
 h1, h2, h3, h4, p, a{
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     color: black;
 }
 h1{
     font-size: 1.4em;
-    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
+
+h2{
+    font: 1.4em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
 h3{
     font-size: 1.4em;
     font-weight: 700;
 }
+
 h4{
     font-size: 1.1em;
     font-weight: 700;
 }
+
 p{
     font-size: 0.8em;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 a{
     text-decoration: none;
+}
+.link{
+    font-size: 1em;
 }
 /*==============================HEADER===========================*/
 #header{
@@ -59,6 +71,60 @@ a{
 .link:hover{
     border-top: 2px solid #0065fc;
     color: #0065fc;
+}
+#header-message{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+}
+#search-paragraph{
+    margin-bottom: 1.25rem;
+    font-weight: ;
+}
+.fa-location-dot{
+    color: #000000;
+    width: 50px;
+    align-self: center;
+}
+
+#destination-search{
+    display: flex;
+    width: fit-content;
+    height: 49px;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+#search-field{
+    width: 260px;
+    border: 0;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 14px 17px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+#search-field::placeholder{
+    font-size: 0.8em;
+}
+.search-button{
+    height: 49px;
+    width: 132px;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    font-size: 0.8em;
+}
+
+#destination-search-text{
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 21px;
+    color: #fff;
 }
 
 /*==================FOOTER=====================*/

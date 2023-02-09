@@ -13,7 +13,7 @@
 </head>
     <body>
         <header> <!-----------------HEADER----------------->
-                <div id="header">
+                <div id="header">  <!---------LOGO+LINKS haut de page--------->
                     <a href="index.html">
                         <img id="logo" src="/images/logo/Booki@3x.png" alt="Logo Booki">
                     </a>
@@ -22,19 +22,21 @@
                             <a class="link" href="#activites" class="navLink:hover navLink">Activités</a>
                         </nav>
                 </div>
+            <section id="header-message"> <!--------Section Recherche--------->
                 <div>
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre-ville ou en pleine nature</p>
+                    <p id="search-paragraph">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <div>
-                    <section>
-                        <label for="site-search"><i class="fa-solid fa-location-dot"></i></label>
-                        <input type="search" placeholder="Marseille,France" id="site-search" name="search">
-                        <button>Rechercher</button>
-                    </section>
+                <div id="destination-search">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input id="search-field" type="search" placeholder="Votre destination" name="search">
+                    <div class="search-button">
+                        <p id="destination-search-text">Rechercher</p>
+                    </div>
                 </div>
+            </section>
         </header>
-    <main> <!-----------------MAIN-------------------->
+    <main> <!----===================MAIN==========================>
         <div>
         </div>        
     </main>
