@@ -4,8 +4,9 @@ body{
     margin: auto;
     width: 95vw;
 }
-h1, h2, h3, h4, p, a{
+h1, h2, h3, h4,h5, p, a{
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-weight: 700;
     color: black;
 }
@@ -17,9 +18,12 @@ h2{
     font-size: 1.2em;
     font-weight: 700;
 }
-h4{
+h3{
+    font-size: 1.4em;
+    margin-bottom: 0.5rem;
+}
+h5{
     font-size: 1.1em;
-    font-weight: 800;
 }
 
 p{
@@ -202,6 +206,106 @@ ul{
     color: #0065FC;
     font-size: 10px;
 }
+/*===========================MAIN==============================*/
+.offers-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 3.5rem;
+}
+.all-offers{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+#offers-main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 2rem;
+    gap: 2rem 0;
+}
+/*------------CARDS---------*/
+.card-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:5px 0px 0px 16px;
+}
+
+.card{ /*---!!!rajouter shadow!!!--*/
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    max-width: 250px;
+    max-height: 200px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+.card-img{
+    height: 124px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.card-discription{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    margin-bottom: 0px;
+}
+.card-name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.card-text {
+    margin-top: 0.2rem;
+
+}
+
+#main-offers-size{
+    width: 70%;
+}
+
+#main-name-size{
+    margin: 2rem;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+#main-more-size{
+    margin: 2rem;
+    font-size: 1.2rem;
+}
+
+/*----Star Rating-----*/
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+}
+.verified-star{
+    color: #0065FC;
+    font-size: 14px;
+}
+.unverified-star{
+    color: #F2F2F2;
+    font-size: 14px;
+}
+
+.more{
+    margin: 2rem;
+    margin-top: 0;
+    font-size: 1.4em;
+}
 /*==================FOOTER=====================*/
 #footer-container{
     display: flex;
@@ -212,7 +316,7 @@ ul{
 }
 
 .footer-nav{
-    margin: 3rem 8rem 0 3rem;
+    margin: 3rem 6rem 0 3rem;
 }
 .footer-list{
     margin-top: 1rem;
