@@ -6,7 +6,6 @@ body{
 }
 h1, h2, h3, h4,h5, p, a{
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     color: black;
 }
@@ -21,9 +20,6 @@ h2{
 h3{
     font-size: 1.4em;
     margin-bottom: 0.5rem;
-}
-h5{
-    font-size: 1.1em;
 }
 
 p{
@@ -212,7 +208,8 @@ ul{
     justify-content: space-between;
     flex-direction: row;
     align-items: stretch;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
+    gap: 2.5rem;
 }
 .all-offers{
     display: flex;
@@ -235,7 +232,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding:5px 0px 0px 16px;
+    padding: 0 16px 10px 16px;
 }
 
 .card{ /*---!!!rajouter shadow!!!--*/
@@ -259,21 +256,17 @@ ul{
     display: flex;
     flex-direction: column;
     justify-self: flex-end;
-    margin-bottom: 0px;
 }
 .card-name{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
     font-size: 1rem;
     font-weight: 700;
 }
 .card-text {
-    margin-top: 0.2rem;
-
-}
-
-#main-offers-size{
-    width: 70%;
+    margin-bottom: 0.2rem;
+    margin-top: 0.1rem;
+    font-size: 0.8rem;
 }
 
 #main-name-size{
@@ -306,6 +299,74 @@ ul{
     margin-top: 0;
     font-size: 1.4em;
 }
+
+/*================================ASIDE================================*/
+#aside-offers{
+    width: 30%;
+}
+#aside-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 2rem 0.5rem 2rem;
+}
+#h3-aside {
+    margin:0;
+}
+#h4-aside{
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.popular-graph{
+    font-size: 18px;
+    color: #0065FC;
+}
+#aside-offers-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 2rem 0px 2rem;
+}
+.aside-card{ /*---!!!rajouter shadow!!!--*/
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    max-width: 340px;
+    max-height: 145px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+.aside-card-img{
+    width: 8vw;
+    max-width: 127px;
+    max-height: 145px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+.aside-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0rem 1rem 1rem;
+}
+.aside-card-text-container{
+    padding: 0;
+}
+.aside-card-text{
+    font-size: 0.8rem;
+}
+.aside-rating{
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    padding-top: 1.5rem;
+}
+
 /*==================FOOTER=====================*/
 #footer-container{
     display: flex;
