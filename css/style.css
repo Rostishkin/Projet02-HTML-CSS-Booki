@@ -244,6 +244,7 @@ ul{
     height: 100%;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .card-img{
     height: 124px;
@@ -339,6 +340,7 @@ ul{
     height: 100%;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .aside-card-img{
     width: 8vw;
@@ -366,7 +368,43 @@ ul{
     gap: 0.1rem;
     padding-top: 1.5rem;
 }
-
+/*================================ACTIVITES==============================*/
+#activities{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+}
+#h3-activities{
+    margin: 2rem 2rem 2rem 0.5rem;
+}
+#activities-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.activities-card-container{
+    width: 23vw;
+    max-width: 300px;
+}
+.activities-card{
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.activities-img{
+    height: 380px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.activity-place{
+    padding: 0rem 1rem 0rem 1.5rem;
+}
+.activities-place-name{
+    margin: 0;
+}
 /*==================FOOTER=====================*/
 #footer-container{
     display: flex;

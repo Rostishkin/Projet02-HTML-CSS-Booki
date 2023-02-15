@@ -18,8 +18,8 @@
                         <img id="logo" src="/images/logo/Booki@3x.png" alt="Logo Booki">
                     </a>
                         <nav id="main-nav">
-                            <a class="link" href="#hebergement" class="navLink:hover navLink">Hébergements</a>
-                            <a class="link" href="#activites" class="navLink:hover navLink">Activités</a>
+                            <a class="link navLink:hover navLink" href="#hebergement">Hébergements</a>
+                            <a class="link navLink:hover navLink" href="#activites">Activités</a>
                         </nav>
                 </div>
             <section id="header-message"> <!--------Section Recherche--------->
@@ -251,15 +251,52 @@
                 </div>
             </aside>
         </section>
-
-        <footer> <!------------------------FOOTER----------------------------------->
+        <!------------------ACTIVITES------------------------>
+        <section id="activities">
+            <h3 id="h3-activities">Activités à Marseille</h3>
+            <div id="activities-container">
+                <a class="activities-card-container" href="#">
+                    <div class="activities-card">
+                        <img class="activities-img" src="/images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port">
+                        <div class="activity-place">
+                            <h4 class="activity-place-name">Vieux-Port</h4>
+                        </div>
+                    </div>
+                </a>
+                <a class="activities-card-container" href="#">
+                    <div class="activities-card">
+                        <img class="activities-img" src="/images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                        <div class="activity-place">
+                            <h4 class="activity-place-name">Fort de Pomègues</h4>
+                        </div>
+                    </div>
+                </a>
+                <a class="activities-card-container" href="#">
+                    <div class="activities-card">
+                        <img class="activities-img" src="/images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
+                        <div class="activity-place">
+                            <h4 class="activity-place-name">Parc national des Calanques</h4>
+                        </div>
+                    </div>
+                </a>
+                <a class="activities-card-container" href="#">
+                    <div class="activities-card">
+                        <img class="activities-img" src="/images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                        <div class="activity-place">
+                            <h4 class="activity-place-name">Notre-Dame-de-la-Garde</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer> <!------------------------FOOTER----------------------------------->
         <div id="footer-container">
             <nav class="footer-nav">
-                    <ul class="footer-list"><h5>À propos</h5>
+                    <h5><ul class="footer-list">À propos</ul></h5>
                         <li class="footer-link"><a href="#"><p>Fonctionnement du site</p></a></li>
                         <li class="footer-link"><a href="#"><p>Conditions générales</p></a></li>
                         <li class="footer-link"><a href="#"><p>Données et confidentialité</p></a></li>
-                    </ul>
             </nav>
             <nav class="footer-nav">
                     <ul class="footer-list"><h5>Nos hébergements</h5>
@@ -274,6 +311,6 @@
                     </ul>
             </nav>
         </div>
-        </footer>
+    </footer>
     </body>
 </html>
