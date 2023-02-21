@@ -427,3 +427,65 @@ ul{
     font-size: 1rem;
     margin:1em  0 0 0 ;
 }
+
+
+/*=======================TABLETTE========================*/
+@media only screen and (max-width: 992px) {
+    h1{
+        margin-bottom: 0.5rem;
+    }
+    #filter-bar{
+        width: 100%;
+    }
+    #filter-header-text{
+        margin-right: 1rem;
+    }
+    #filter-button-container{
+        gap: 0.5rem;
+    }
+    .filter-button{
+        padding: 0 0.5rem;
+    }
+    #offers-container{
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    #main-offers-size{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .card{
+        width: 25vw;
+    }
+    #aside-offers{
+        width: 100%;
+    }
+    #aside-text{
+        margin: 2rem;
+        margin-bottom: 0;
+    }
+    #aside-offers-container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+    .aside-card{
+        width: 28vw;
+    }
+    .aside-card-img{
+        width: 10vw;
+    }
+    .h4-aside{
+        font-size: 0.9em;
+    }
+    .aside-card-text{
+        font-size: 0.8em;
+    }
+    .activites-img{
+        height: 211px;
+    }
+    .nav-footer{
+        margin: 3rem 5rem 0 4rem;
+    }
+}
