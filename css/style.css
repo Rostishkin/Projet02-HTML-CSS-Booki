@@ -469,6 +469,7 @@ ul{
         align-items: center;
         justify-content: space-between;
         gap: 1.5rem;
+        margin-bottom: 2.5rem;
     }
     .aside-card{
         width: 28vw;
@@ -485,7 +486,15 @@ ul{
     .activites-img{
         height: 211px;
     }
-    .nav-footer{
-        margin: 3rem 5rem 0 4rem;
+
+    .footer-link{
+        font-size: 0.8em;
+    }
+    .footer-list{
+        font-size: 1em;
+        margin-top: 1rem;
+    }
+    .footer-nav{
+        margin: 1rem 3rem 0.5rem 1rem;
     }
 }
