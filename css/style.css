@@ -4,7 +4,7 @@ body{
     margin: auto;
     width: 95vw;
 }
-h1, h2, h3, h4,h5, p, a{
+h1, h2, h3, h4,h5, p, a, ul{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: black;
@@ -36,6 +36,7 @@ a{
 ul{
     list-style-type: none;
 }
+
 /*==============================HEADER===========================*/
 #header{
     display: flex;
@@ -203,7 +204,7 @@ ul{
     font-size: 10px;
 }
 /*===========================MAIN==============================*/
-.offers-container{
+#offers-container{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -315,7 +316,7 @@ ul{
 #h3-aside {
     margin:0;
 }
-#h4-aside{
+.h4-aside{
     margin-top: 0;
     font-size: 1rem;
 }
@@ -415,12 +416,14 @@ ul{
 }
 
 .footer-nav{
-    margin: 3rem 6rem 0 3rem;
+    margin: 2rem 6rem 0 3.5rem;
 }
 .footer-list{
-    margin-top: 1rem;
+    font-size: 1.2rem;
 }
+
 .footer-link{
-    margin-top: 0.8rem;
     text-decoration: none;
+    font-size: 1rem;
+    margin:1em  0 0 0 ;
 }
