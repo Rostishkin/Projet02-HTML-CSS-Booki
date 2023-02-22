@@ -363,7 +363,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 16px 0 5px;
+    padding: 0 5px 0 5px;
 }
 .aside-card-text{
     margin-top: 0;
