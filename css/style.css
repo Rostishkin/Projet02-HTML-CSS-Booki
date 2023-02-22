@@ -517,13 +517,13 @@ ul{
     #logo{
         margin: 0;
     }
-    .nav-link{
+    .navLink{
         width: 50vw;
         border-top: 0;
         border-bottom: 2px solid #F2F2F2;
         padding: 3rem 0 2rem 0;
     }
-    .nav-link:hover{
+    .navLink:hover{
         border-top: 0;
         border-bottom: 2px solid #0065FC;
         color: #0065FC;
