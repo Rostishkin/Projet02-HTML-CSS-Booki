@@ -26,7 +26,7 @@ h4{
 }
 
 p{
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 400;
 }
 
@@ -240,7 +240,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0.1em 1rem 0.7rem 1rem;
+    margin: 0.2rem 0rem 0.5rem 1rem;
 }
 
 .card{
@@ -273,9 +273,8 @@ ul{
     font-weight: 700;
 }
 .card-text{
+    margin-top:0.2rem;
     margin-bottom: 0.2rem;
-    margin-top: 0.1rem;
-    font-size: 0.8rem;
 }
 
 #main-name-size{
@@ -293,6 +292,7 @@ ul{
     display: flex;
     flex-direction: row;
     gap: 0.1rem;
+    margin-bottom: 0.4rem;
 }
 .verified-star{
     color: #0065FC;
@@ -356,14 +356,14 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 0.2rem 1rem 0.2rem;
+    padding: 0 0.2rem 0.5rem 0.2rem;
 }
 .aside-card-text-container{
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 5px 0 5px;
+    padding: 5px 5px 0 5px;
 }
 .aside-card-text{
     margin-top: 0;
