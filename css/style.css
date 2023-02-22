@@ -107,7 +107,7 @@ ul{
 #search-field::placeholder{
     font-size: 0.8em;
 }
-.search-button{
+#search-button{
     height: 49px;
     width: 132px;
     background-color: #0065FC;
@@ -355,7 +355,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1rem 0rem 1rem 1rem;
+    padding: 1rem;
 }
 .aside-card-text-container{
     padding: 0;
@@ -496,5 +496,146 @@ ul{
     }
     .footer-nav{
         margin: 1rem 3rem 0.5rem 1rem;
+    }
+}
+
+/*====================MOBILE DEVICES=========================*/
+@media only screen and (max-width: 768px) {
+    body{
+        width: 100vw;
+        margin: auto;
+    }
+    header{
+        width: 95vw;
+        margin: auto;
+    }
+    #header{
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    #logo{
+        margin: 0;
+    }
+    .nav-link{
+        width: 50vw;
+        border-top: 0;
+        border-bottom: 2px solid #F2F2F2;
+        padding: 3rem 0 2rem 0;
+    }
+    .nav-link:hover{
+        border-top: 0;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+    }
+    #header-message{
+        margin-bottom: 2rem;
+    }
+    #search-paragraph{
+        margin-bottom: 2.25rem;
+    }
+    #destination-search{
+        align-self: center;
+    }
+    #search-button{
+        display: none;
+    }
+    #search-btn-magnifyer{ /*-----a revoir----*/
+        width: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .fa-magnifying-glass{ /*---a revoir----*/
+        font-size: 17px;
+        color: #fff;
+        align-self: center;
+    }
+    #filter-bar{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        align-items: baseline;
+        margin-bottom: 2rem;
+    }
+    #filter-button-container{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .filter-button{
+        width: 40vw;
+        padding: 0 0 0 1rem;
+        justify-content: flex-start;
+    }
+    .filter-button-text{
+        font-size: 0.7em;
+        font-weight: 700;
+        line-height: 13px;
+        margin-left: 5px;
+    }
+    #offers-container{
+        flex-direction:column-reverse;
+        margin-bottom: 1rem;
+    }
+    #main-offers-size{
+        background-color: #fff;
+        border-radius: 0;
+        margin-bottom: 1rem;
+    }
+    #offers-main-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1.5rem 0 0 0;
+        gap: 1rem;
+    }
+    .card{
+        max-width: unset;
+        width: 82vw;
+    }
+    #aside-offers{
+        border-radius: 0;
+        flex-direction: column;
+    }
+    #aside-offers-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .aside-card{
+        max-width: unset;
+        width: 82vw;
+    }
+    .aside-card-img{
+        width: 30vw;
+    }
+    .more{
+        display: none;
+    }
+    #h3-activities{
+        margin: 0 2rem 1rem 2rem;
+    }
+    #activities-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .activities-card-container{
+        max-width: unset;
+        width: 82vw;
+    }
+    .activities-img{
+        height: 134px;
+    }
+    #footer-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: fit-content;
+    }
+    .footer-nav{
+        margin: 3rem 0 0 2rem;
     }
 }
