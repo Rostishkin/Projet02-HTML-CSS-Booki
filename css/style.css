@@ -114,6 +114,9 @@ ul{
     border-radius: 0 15px 15px 0;
     font-size: 0.8em;
 }
+#search-button-icon{
+    display: none;
+}
 
 #destination-search-text{
     font-size: 1.1em;
@@ -540,14 +543,16 @@ ul{
     #search-button{
         display: none;
     }
-    #search-btn-magnifyer{ /*-----a revoir----*/
+    #search-button-icon{
         width: 50px;
         display: flex;
         justify-content: center;
+        background-color: #0065FC;
+        border-radius: 0 15px 15px 0;
     }
-    .fa-magnifying-glass{ /*---a revoir----*/
+    .fa-magnifying-glass{ 
         font-size: 17px;
-        color: #fff;
+        color: #FFFFFF;
         align-self: center;
     }
     #filter-bar{
