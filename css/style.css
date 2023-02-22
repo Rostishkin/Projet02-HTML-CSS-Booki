@@ -407,6 +407,7 @@ margin-bottom: 2rem;
 }
 .activities-place-name{
     margin: 0;
+    font-size: 0.8em;
 }
 /*==================FOOTER=====================*/
 #footer-container{
@@ -488,7 +489,9 @@ margin-bottom: 2rem;
     .activities-img{
         height: 210px;
     }
-
+    .activities-place{
+        padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+    }
     .footer-link{
         font-size: 0.8em;
     }
