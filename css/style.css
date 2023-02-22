@@ -21,6 +21,9 @@ h3{
     font-size: 1.4em;
     margin-bottom: 0.5rem;
 }
+h4{
+    font-size: 1em;
+}
 
 p{
     font-size: 1em;
@@ -113,6 +116,7 @@ ul{
     background-color: #0065FC;
     border-radius: 0 15px 15px 0;
     font-size: 0.8em;
+    cursor: pointer;
 }
 #search-button-icon{
     display: none;
@@ -314,22 +318,22 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem;
-    margin-bottom: 0;
+    margin: 1rem 2rem 0rem 2rem;
 }
-#h3-aside{
-    margin: 0;
+.h4-aside{
+    margin: 0.5em 0 0 0;
 }
 .fa-chart-line{
     font-size: 18px;
     color: #0065FC;
+    cursor: pointer;
 }
 #aside-offers-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.6rem;
-    padding: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
 }
 .aside-card{
     width: 23vw;
@@ -363,9 +367,6 @@ ul{
 }
 .aside-card-text{
     margin-top: 0;
-}
-.h4-aside{
-    margin-bottom: 0;
 }
 /*================================ACTIVITES==============================*/
 #activities{
@@ -481,9 +482,10 @@ margin-bottom: 2rem;
     .aside-card-text{
         font-size: 0.8em;
     }
-    .activites-img{
+    .activities-img{
         height: 210px;
     }
+
     .footer-link{
         font-size: 0.8em;
     }
