@@ -320,6 +320,9 @@ ul{
     justify-content: space-between;
     margin: 1rem 2rem 0rem 2rem;
 }
+#h3-aside{
+    margin: 1rem 1rem 1rem 0.2rem;
+}
 .h4-aside{
     margin: 0.5em 0 0 0;
 }
