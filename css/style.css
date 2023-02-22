@@ -236,10 +236,10 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 16px 10px 16px;
+    padding: 0.1em 1rem 0.7rem 1rem;
 }
 
-.card{ /*---!!!rajouter shadow!!!--*/
+.card{
     display: flex;
     flex-direction: column;
     width: 20vw;
@@ -263,12 +263,12 @@ ul{
     justify-self: flex-end;
 }
 .card-name{
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     font-size: 1rem;
     font-weight: 700;
 }
-.card-text {
+.card-text{
     margin-bottom: 0.2rem;
     margin-top: 0.1rem;
     font-size: 0.8rem;
@@ -284,7 +284,7 @@ ul{
     font-size: 1.2rem;
 }
 
-/*----Star Rating-----*/
+/*-------Star Rating-------*/
 .rating{
     display: flex;
     flex-direction: row;
@@ -314,17 +314,13 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem 2rem 0.5rem 2rem;
+    margin: 2rem;
+    margin-bottom: 0;
 }
-#h3-aside {
-    margin:0;
+#h3-aside{
+    margin: 0;
 }
-.h4-aside{
-    margin-top: 0;
-    font-size: 1rem;
-}
-
-.popular-graph{
+.fa-chart-line{
     font-size: 18px;
     color: #0065FC;
 }
@@ -332,24 +328,22 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
-    padding: 1.5rem 2rem 0px 2rem;
+    gap: 1.6rem;
+    padding: 2rem;
 }
-.aside-card{ /*---!!!rajouter shadow!!!--*/
+.aside-card{
+    width: 23vw;
+    max-width: 340px;
+    height: 145px;
+    background-color: #fff;
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
-    width: 20vw;
-    max-width: 340px;
-    max-height: 145px;
-    height: 100%;
-    border-radius: 20px;
-    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .aside-card-img{
     width: 8vw;
     max-width: 127px;
-    max-height: 145px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
@@ -358,19 +352,20 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0 0.2rem 1rem 0.2rem;
 }
 .aside-card-text-container{
-    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 16px 0 5px;
 }
 .aside-card-text{
-    font-size: 0.8rem;
+    margin-top: 0;
 }
-.aside-rating{
-    display: flex;
-    flex-direction: row;
-    gap: 0.1rem;
-    padding-top: 1.5rem;
+.h4-aside{
+    margin-bottom: 0;
 }
 /*================================ACTIVITES==============================*/
 #activities{
@@ -379,7 +374,7 @@ ul{
     margin-bottom: 3.5rem;
 }
 #h3-activities{
-    margin: 2rem 2rem 2rem 0.5rem;
+margin-bottom: 2rem;
 }
 #activities-container{
     display: flex;
@@ -393,18 +388,18 @@ ul{
 .activities-card{
     height: 100%;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: white;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .activities-img{
-    height: 380px;
+    height: 390px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-.activity-place{
-    padding: 0rem 1rem 0rem 1.5rem;
+.activities-place{
+    padding: 1.25rem 1rem;
 }
 .activities-place-name{
     margin: 0;
@@ -487,9 +482,8 @@ ul{
         font-size: 0.8em;
     }
     .activites-img{
-        height: 211px;
+        height: 210px;
     }
-
     .footer-link{
         font-size: 0.8em;
     }
