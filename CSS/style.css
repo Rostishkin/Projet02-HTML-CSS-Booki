@@ -1,15 +1,18 @@
 /*======================GENERAL======================*/
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
 body{
     max-width: 1400px;
     margin: auto;
     width: 95vw;
 }
 h1, h2, h3, h4,h5, p, a, ul{
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: black;
 }
-h1{
+h1, h3{
     font-size: 1.4em;
     margin-bottom: 0.5rem;
 }
@@ -17,10 +20,7 @@ h2{
     font-size: 1.2em;
     font-weight: 700;
 }
-h3{
-    font-size: 1.4em;
-    margin-bottom: 0.5rem;
-}
+
 h4{
     font-size: 1em;
 }
