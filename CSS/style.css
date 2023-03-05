@@ -403,7 +403,7 @@ margin-bottom: 2rem;
     border-radius: 20px 20px 0 0;
 }
 .activities-place{
-    padding: 1.25rem 1rem;
+    padding: 1.25em 1em 1em 1em;
 }
 .activities-place-name{
     margin: 0;
@@ -491,7 +491,7 @@ margin-bottom: 2rem;
         height: 210px;
     }
     .activities-place{
-        padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+        padding: 1em 1em 0.8em 1em;
     }
     .footer-link{
         font-size: 0.8em;
