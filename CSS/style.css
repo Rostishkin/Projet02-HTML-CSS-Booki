@@ -214,11 +214,13 @@ ul{
 /*===========================MAIN==============================*/
 #offers-container{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
     align-items: stretch;
     margin-bottom: 3rem;
-    gap: 2.5rem;
+}
+#main-offers-size{
+    width: 67%;
 }
 .all-offers{
     display: flex;
@@ -226,37 +228,38 @@ ul{
     border-radius: 20px;
     background-color: #F2F2F2;
 }
+
 #offers-main-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:  wrap;
     justify-content: space-between;
     align-items: stretch;
     padding: 2rem;
-    gap: 2rem 0;
+    gap: 2.5em 0;
 }
+
 /*------------CARDS---------*/
 .card-container{
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0.2rem 0rem 0.5rem 1rem;
+    margin: 0.2rem 0 0.5rem 1rem;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 18vw;
     max-width: 250px;
-    max-height: 200px;
     height: 100%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .card-img{
-    height: 124px;
+    height: 120px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -379,7 +382,7 @@ ul{
     margin-bottom: 3.5rem;
 }
 #h3-activities{
-margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 #activities-container{
     display: flex;
@@ -432,8 +435,6 @@ margin-bottom: 2rem;
     font-size: 1em;
     padding-left: 0;
 }
-
-
 /*=======================TABLETTE========================*/
 @media only screen and (max-width: 992px) {
     h1{
