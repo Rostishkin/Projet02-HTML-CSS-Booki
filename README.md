@@ -18,7 +18,7 @@ Projet 2 Openclassrooms qui consiste en realisation de la page d'accueil d'une a
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Client:** HTML, CSS
 
-**Server:** Node, Express
+
 
